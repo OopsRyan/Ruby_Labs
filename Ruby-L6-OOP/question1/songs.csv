@@ -1,0 +1,32 @@
+"Songname","Artist","Album","Time","Id"
+# THIS FILE CONTAINS ALL SONGS IN iTunes
+# Aug 29 2014
+######################################################
+# 			All SONGS
+#######################################################
+# (1) This file can be very sensitive to errors.
+# (2) note, that there is no space after a comma
+# (3) all entries are strings except time which is a float
+# (4) we need to explicitly write code to ignore the commented lines
+#######################################################
+# 21 by Adele, 2011
+"Rolling in the Deep","Adele","21",3.48,1
+"Rumour Has It","Adele","21",3.41,2
+"Turning Tables","Adele","21",4.10,3
+#
+# rice & shine by Eason Chan, 2014 
+"It's Over","Eason Chan","rice & shine",4.52,4
+#
+# Some Kind Of Trouble by James Blunt, 2010
+"No Tears","James Blunt","Some Kind Of Trouble",3.50,5
+"Stay The Night","James Blunt","Some Kind Of Trouble",3.25,6
+#
+# Wild Horses by Birdy, 2016
+"Wild Horses - Sam Feldt Remix","Birdy","Wild Horses",2.57,7
+#
+# Greatest Hits - Chapter One by Kelly Clarkson, 2012
+"Catch My Breath","Kelly Clarkson","Greatest Hits - Chapter One",4.10,8
+"Since U Been Gone","Kelly Clarkson","Greatest Hits - Chapter One",3.09,9
+#
+# Paradise by Czarina
+"I Miss You","Czarina","Paradise",3.49,11
