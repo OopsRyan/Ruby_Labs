@@ -1,0 +1,63 @@
+evaluation question
+	"hello there big boy"
+	56
+	34.00
+	0.22222224455623423
+	["a", "v", "q"]
+	+
+	PI...
+
+define a class for Family member
+define modules
+define arrays for these family member
+
+
+concept QS
+write a short paragraph on any four of the key properties that are asserted to be characteristic of the OOP paradigram.
+
+
+five question 
+
+2 question 35% each + 3 question 10% each
+
+Q1 => 35% => 15mins
+Q2 => 35% => 15mins
+Q3-5 => 30% => 15mins
+
+
+-----------------------------------
+
+p and puts return value?
+
+****
+splats. * arguement list
+
+reduce method add this array together
+
+***
+hash table
+merge hash tables => has same keys
+
+***
+symbols
+immutable, singel stored entities(entities=> object_id, unique entities)
+often used as keys in hashes, to name methods or as keywords in pre-defined kernel methods ; eg :+ or :attr_accessor
+
+****
+catching..throwing...rescue
+raise StandardError.new('yuk')
+
+***
+Regexp - regular expression
+they are not string
+
+***
+Dotty ::
+
+static method in a class (or in a moudle?)
+
+
+
+
+
+
