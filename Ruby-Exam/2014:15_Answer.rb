@@ -1,9 +1,9 @@
-######## question1
-class Fixnum
+######## question 1
+class Fixnum 
 	def is_prime?
 		flag = true
 		(1..self).to_a.each do |i|
-			if (self%i == 0) && self != i && i != 1 then
+			if self % i == 0 && i != 1 && self != i then
 				flag = false
 			end
 		end
@@ -11,35 +11,36 @@ class Fixnum
 	end
 end
 
-p 13.is_prime?
-p 10.is_prime?
-
 def find_primes1
-	i = 1
-	array = Array.new
-	
-	while array.length < 20 do 
-		if i.is_prime? and i != 1 then 
-			array << i
+	a = 1
+	b = 0
+	array = []
+	while array.length < 20 do
+		if a.is_prime? && a != 1 then
+			array << a.to_s
+			b += 1
 		end
-		i += 1
+		a += 1
 	end
-	array
+	array.each do |a|
+		puts "This is a prime: " + a
+	end
 end
 
-def find_primes2(i=1,array=[])
+def find_primes2(i,array=[])
 	if array.length >= 20 then 
-		array
-	else
-		if i.is_prime? && i != 1 then
-			array << i
+		array.each do |a|
+			puts "This is a prime: " + a.to_s	
 		end
-		find_primes2(i+=1, array)
+	else
+		find_primes2(i += 1, i.is_prime? && i != 1 ? array<<i : array)
 	end
 end
 
-p find_primes1
-p find_primes2
+# p 4.is_prime?
+find_primes1
+puts "-------"
+find_primes2(1)
 
 ############### question 2
 
