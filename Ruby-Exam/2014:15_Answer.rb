@@ -101,6 +101,28 @@ p b.cut_down
 p b.is_living?
 
 
+############## question 3
+def match_names(names,seconrd_names)
+	array = []
+	names.each do |i|
+		seconrd_names.each do |j|
+			array << i.to_s.concat("_"+j.to_s).to_sym
+		end
+	end
+	array
+end
+
+class Array
+	def match_names_block(b)
+		match_names(self, b)
+	end
+end
+		
+
+a = [:mark, :mikki, :peijie] 
+b = ["keane", "finn", "ma"]
+# p match_names(a,b)
+p a.match_names_block(b)
 
 
 # class A
